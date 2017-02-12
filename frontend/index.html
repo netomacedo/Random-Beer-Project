@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+
+<header>
+
+
+<nav class="navbar navbar-inverse navbar-static-top">
+	
+		<div class="container-fluid">
+			<div class="navbar-left">
+				<output>
+					<h4>THE RANDOM BEER APP</h4>
+				</output>
+			</div>
+
+			<div class="navbar-right">
+				<button onClick="loadBeer()" class="btn btn-default">Show
+					Another Beer</button>
+			</div>
+			<div class="navbar-right" id="nav"></div>
+
+		</div>
+</nav>
+
+</header>
+
+	<section>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="clearfix">
+					<h2 class="panel-title search-titulo-panel">Beer Search</h2>
+				</div>
+			</div>
+
+
+			<div class="panel-body">
+				<div class="form-group">
+					<div class="col-sm-5">
+						<img id="image" alt="" class="image" src="https://s4.postimg.org/8123e0e99/0_no_image.png">
+					</div>
+
+					<div class="col-sm-4">
+					<b>Name</b>
+						<output class="form-control" id="name" ></output>
+					</div>
+
+					<div class="col-sm-4">
+					<b>Description</b>
+						<output class="form-control" id="description"></output>
+					</div>
+					
+					<div class="col-sm-4">
+					<b>Brewery location</b>
+						<output class="form-control" id="location"></output>
+					</div>
+					
+					<div class="col-sm-4">
+					<b>Alcohol percentage %</b>
+						<output class="form-control" id="abv"></output>
+					</div>
+					
+					<div class="col-sm-4">
+					<b>Type</b>
+						<output class="form-control" id="type"></output>
+					</div>
+
+				</div>
+			</div>
+		</div>
+</section>
+
+</body>
+</html>
