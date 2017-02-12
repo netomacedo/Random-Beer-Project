@@ -15,8 +15,8 @@ You will only need to run this command (from backend folder) to start the backen
 
     mvnw spring-boot:run
 	
-	##### Linux User
-In backend folder change the permission of maven wrapper 
+	
+##### Linux User In backend folder change the permission of maven wrapper 
 
 	chmod +777 mvnw
 	
