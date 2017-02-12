@@ -1,6 +1,6 @@
 # The Random Beer App
 
-![Print Screen](pring.png)
+![Print Screen](print.png)
 
 Simple web app that displays details about a random beer
 
@@ -13,7 +13,7 @@ You will only need to run this command (from backend folder) to start the backen
 
     mvnw spring-boot:run
 
-If you want start the backend from your IDE you can just run the class.
+If you want start the backend from your IDE you can import the backend folder and just run the main class.
 
     RandomBeerAppApiApplication.java
 
